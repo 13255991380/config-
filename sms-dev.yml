@@ -1,0 +1,17 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    virtual-host: /ningmeng
+    username: /ningmeng
+    password: ningmeng
+    host: 192.168.19.7
+
+ningmeng:
+  sms:
+    accessKeyId: LTAIHLeKkTHXIp2Y
+    accessKeySecret: AvnLyh3Fd1aXHVXjQO5oGadxTg3Sam
+    signName: 柠檬SC
+    verifyCodeTemplate: SMS_160860097
